@@ -27,9 +27,13 @@ function About() {
         <div className="row">
             <div className="col-lg-7">
             <div className="block-title text-left block-title__low-margin">
-                <h2 className="block-title__title">Welcome to the Clainc, Best <br /> Reiable Health Solutions</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Quis ipsum sue ultrices gravida. Risus <br /> comcenas accumsan lacua. <br /><br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. </p>{/* /.block-title__text */}
+                <h2 className="block-title__title">Welcome to UzimaNexus.</h2>{/* /.block-title__title */}
+                <p className="block-title__text">We’re delighted to introduce you to a new era in African healthcare. <br />UzimaNexus is dedicated to bridging gaps in the healthcare system, 
+                fostering transparency, accessibility, and accountability 
+                for all. <br />As we face growing health challenges, UzimaNexus provides a transformative platform
+that enables patients and providers to access crucial data anytime, anywhere, securely and
+seamlessly.
+Thank you for choosing UzimaNexus as your partner in healthcare transformation. </p>{/* /.block-title__text */}
             </div>{/* /.block-title */}
             <a href="#" className="thm-btn">Learn More</a>
             </div>{/* /.col-lg-7 */}
@@ -39,8 +43,15 @@ function About() {
     <section className="service-three thm-gray-bg">
         <div className="container">
         <div className="block-title text-center">
-            <h2 className="block-title__title">Our Core Value for You</h2>{/* /.block-title__title */}
-            <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
+            <h2 className="block-title__title">About UzimaNexus</h2>{/* /.block-title__title */}
+            <p className="block-title__text">UzimaNexus is a pioneering health technology platform transforming the African healthcare
+                                landscape. Our mission is to create an accessible and transparent data-sharing system that
+                                addresses gaps in healthcare, empowering both patients and providers with seamless, secure
+                                access to medical records across diverse settings.
+                                With UzimaNexus, healthcare becomes a unified, transparent, and efficient economy, ensuring
+                                no patient is left behind due to lack of access or fragmented records. We stand committed to
+                                revolutionizing healthcare across Africa with innovative solutions powered by blockchain, AI,
+                                and wearable NFC technology, creating a brighter, healthier future.</p>{/* /.block-title__text */}
         </div>{/* /.block-title */}
         <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
@@ -49,8 +60,10 @@ function About() {
                 <i className="clainc-icon-doctor" />
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
-                <h3 className="service-three__title"><a href="#">Experience Doctors</a></h3>
-                <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                <h3 className="service-three__title"><a href="#">OUR VISION</a></h3>
+                <p className="service-three__text">Our vision is to be the driving force behind accessible, transparent healthcare across Africa. 
+                    We aim to ensure that healthcare providers and patients have continuous, secure access to health
+                    information, paving the way for improved healthcare outcomes and trust. </p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
             </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -60,8 +73,15 @@ function About() {
                 <i className="clainc-icon-ambulance1" />
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
-                <h3 className="service-three__title"><a href="#">Emergency Treatments</a></h3>
-                <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                <h3 className="service-three__title"><a href="#">OUR VALUES</a></h3>
+                <p className="service-three__text"><ul>
+                    <li><b>Transparency: </b>Prioritizing open, accessible health data for all.</li>
+                    <li><b>Innovation: </b>Leveraging blockchain, NFC, and AI to empower users.</li>
+                    <li><b>Empowerment: </b>Providing patients with control over their own health data.</li>
+                    <li> <b>Collaboration: </b>Building partnerships to support scalable, cross-system connectivity.</li>
+                    </ul>
+                
+                </p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
             </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -71,7 +91,7 @@ function About() {
                 <i className="clainc-icon-save-the-earth" />
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
-                <h3 className="service-three__title"><a href="#">Better Enverionment</a></h3>
+                <h3 className="service-three__title"><a href="#">OUR MISSION</a></h3>
                 <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
             </div>{/* /.service-three__single */}
@@ -208,7 +228,7 @@ function About() {
     <section className="team-one team-one__home-two">
         <div className="container">
         <div className="block-title text-center">
-            <h2 className="block-title__title">Meet With Our Professors</h2>{/* /.block-title__title */}
+            <h2 className="block-title__title">Meet With Our Team</h2>{/* /.block-title__title */}
             <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
         </div>{/* /.block-title */}
         <div className="row low-gutters">
@@ -218,8 +238,8 @@ function About() {
                 <img src="/images/team/team-1-1.jpg" alt="Awesome Image" />
                 </div>{/* /.team-one__image */}
                 <div className="team-one__content">
-                <h3 className="team-one__title"><a href="#">Letitia Bakeley</a></h3>{/* /.team-one__title */}
-                <p className="team-one__speciality">Cardiologist</p>{/* /.team-one__speciality */}
+                <h3 className="team-one__title"><a href="#">Dr. Amina</a></h3>{/* /.team-one__title */}
+                <p className="team-one__speciality">Chief Executive Officer</p>{/* /.team-one__speciality */}
                 </div>{/* /.team-one__content */}
                 <div className="team-one__hover-content">
                 <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
@@ -233,8 +253,8 @@ function About() {
                 <img src="/images/team/team-1-2.jpg" alt="Awesome Image" />
                 </div>{/* /.team-one__image */}
                 <div className="team-one__content">
-                <h3 className="team-one__title"><a href="#">Iliana Fidsky</a></h3>{/* /.team-one__title */}
-                <p className="team-one__speciality">Cardiologist</p>{/* /.team-one__speciality */}
+                <h3 className="team-one__title"><a href="#">Alvin Maase</a></h3>{/* /.team-one__title */}
+                <p className="team-one__speciality">Chief Technology Officer</p>{/* /.team-one__speciality */}
                 </div>{/* /.team-one__content */}
                 <div className="team-one__hover-content">
                 <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
@@ -242,29 +262,15 @@ function About() {
                 </div>{/* /.team-one__hover-content */}
             </div>{/* /.team-one__single */}
             </div>{/* /.col-lg-3 */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="team-one__single">
-                <div className="team-one__image">
-                <img src="/images/team/team-1-3.jpg" alt="Awesome Image" />
-                </div>{/* /.team-one__image */}
-                <div className="team-one__content">
-                <h3 className="team-one__title"><a href="#">Hermelinda Barquera</a></h3>{/* /.team-one__title */}
-                <p className="team-one__speciality">Cardiologist</p>{/* /.team-one__speciality */}
-                </div>{/* /.team-one__content */}
-                <div className="team-one__hover-content">
-                <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
-                <a href="#" className="team-one__hvr-link"><i className="material-icons">email</i></a>
-                </div>{/* /.team-one__hover-content */}
-            </div>{/* /.team-one__single */}
-            </div>{/* /.col-lg-3 */}
+ 
             <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
                 <div className="team-one__image">
                 <img src="/images/team/team-1-4.jpg" alt="Awesome Image" />
                 </div>{/* /.team-one__image */}
                 <div className="team-one__content">
-                <h3 className="team-one__title"><a href="#">Jermaine Rushforth</a></h3>{/* /.team-one__title */}
-                <p className="team-one__speciality">Cardiologist</p>{/* /.team-one__speciality */}
+                <h3 className="team-one__title"><a href="#">Prudence</a></h3>{/* /.team-one__title */}
+                <p className="team-one__speciality">Chief Operations Officer</p>{/* /.team-one__speciality */}
                 </div>{/* /.team-one__content */}
                 <div className="team-one__hover-content">
                 <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>

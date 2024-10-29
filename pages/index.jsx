@@ -337,7 +337,7 @@ export default function Home() {
                     <a href="#" className="pager-item active" data-slide-index={0}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -351,7 +351,7 @@ export default function Home() {
                     <a href="#" className="pager-item" data-slide-index={1}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -365,7 +365,7 @@ export default function Home() {
                     <a href="#" className="pager-item" data-slide-index={2}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-3.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-3.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -379,7 +379,7 @@ export default function Home() {
                     <a href="#" className="pager-item" data-slide-index={3}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-4.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-4.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -393,7 +393,7 @@ export default function Home() {
                     <a href="#" className="pager-item" data-slide-index={4}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-5.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-5.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -407,7 +407,7 @@ export default function Home() {
                     <a href="#" className="pager-item" data-slide-index={5}>
                       <div className="team-three__list-item">
                         <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="images/team/team-3-6.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                          <div className="inner-block"><img src="/images/team/team-3-6.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                         </div>{/* /.team-three__list-item-image */}
                         <div className="team-three__list-item-content">
                           <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -426,7 +426,7 @@ export default function Home() {
                   <div className="team-three__description">
                     <div className="team-three__description-top">
                       <div className="team-three__description-image">
-                        <div className="inner-block"><img src="images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                        <div className="inner-block"><img src="/images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                       </div>{/* /.team-three__description-image */}
                       <div className="team-three__description-content">
                         <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -446,7 +446,7 @@ export default function Home() {
                   <div className="team-three__description">
                     <div className="team-three__description-top">
                       <div className="team-three__description-image">
-                        <div className="inner-block"><img src="images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
+                        <div className="inner-block"><img src="/images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
                       </div>{/* /.team-three__description-image */}
                       <div className="team-three__description-content">
                         <p className="team-three__title">Professior</p>{/* /.team-three__title */}
@@ -548,7 +548,7 @@ export default function Home() {
         </div>{/* /.container */}
       </section>{/* /.team-three */}
       <section className="fun-fact-two">
-        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(images/background/fun-fact-bg-1-1.jpg)'}} />{/* /.fun-fact-two__background-image */}
+        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(/images/background/fun-fact-bg-1-1.jpg)'}} />{/* /.fun-fact-two__background-image */}
         <div className="container">
           <div className="block-title text-center">
             <h2 className="block-title__title block-title__light-color">Our Achievements</h2>{/* /.block-title__title */}
@@ -596,7 +596,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="team-two__single">
                 <div className="team-two__image">
-                  <img src="images/team/team-2-1.jpg" alt="Awesome Image" />
+                  <img src="/images/team/team-2-1.jpg" alt="Awesome Image" />
                 </div>{/* /.team-two__image */}
                 <div className="team-two__content">
                   <h3 className="team-two__title"><a href="#">Florence Mccrudden</a></h3>
@@ -616,7 +616,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="team-two__single">
                 <div className="team-two__image">
-                  <img src="images/team/team-2-2.jpg" alt="Awesome Image" />
+                  <img src="/images/team/team-2-2.jpg" alt="Awesome Image" />
                 </div>{/* /.team-two__image */}
                 <div className="team-two__content">
                   <h3 className="team-two__title"><a href="#">Tracie Hirata</a></h3>
@@ -636,7 +636,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="team-two__single">
                 <div className="team-two__image">
-                  <img src="images/team/team-2-3.jpg" alt="Awesome Image" />
+                  <img src="/images/team/team-2-3.jpg" alt="Awesome Image" />
                 </div>{/* /.team-two__image */}
                 <div className="team-two__content">
                   <h3 className="team-two__title"><a href="#">Stevie Morino</a></h3>
@@ -656,7 +656,7 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="team-two__single">
                 <div className="team-two__image">
-                  <img src="images/team/team-2-4.jpg" alt="Awesome Image" />
+                  <img src="/images/team/team-2-4.jpg" alt="Awesome Image" />
                 </div>{/* /.team-two__image */}
                 <div className="team-two__content">
                   <h3 className="team-two__title"><a href="#">Madie Ricciardelli</a></h3>

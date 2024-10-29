@@ -7,8 +7,8 @@ function Header() {
   <section className="topbar-one">
     <div className="container">
       <ul className="topbar-one__contact">
-        <li className="topbar-one__contact-item"><a href="mailto:help@example.com"><i className="material-icons">email</i>help@example.com</a></li>
-        <li className="topbar-one__contact-item"><a href="callto:123456789101"><i className="material-icons">local_phone</i>1234&nbsp;&nbsp;5678&nbsp;&nbsp;9101</a></li>
+        <li className="topbar-one__contact-item"><a href="mailto:help@example.com"><i className="material-icons">email</i>info@uzimanexus.com</a></li>
+        <li className="topbar-one__contact-item"><a href="callto:123456789101"><i className="material-icons">local_phone</i>+254 745943172</a></li>
       </ul>{/* /.topbar-one__contact */}
       <div className="topbar-one__buttons">
         <select className="selectpicker topbar-one__language">
@@ -26,7 +26,7 @@ function Header() {
         {/* Brand and toggle get grouped for better mobile display */}
         <div className="logo-box clearfix">
           <a className="navbar-brand" href="index.html">
-            <img src="images/resources/logo-1-1.png" className="main-logo" alt="Awesome Image" />
+            <img src="/images/resources/logo-1-1.png" className="main-logo" alt="Awesome Image" />
           </a>
           <button className="menu-toggler" data-target=".main-navigation">
             <span className="fa fa-bars" />
