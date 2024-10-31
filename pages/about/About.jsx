@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function About() {
   return (
     <>
@@ -30,10 +31,9 @@ function About() {
                 <h2 className="block-title__title">Welcome to UzimaNexus.</h2>{/* /.block-title__title */}
                 <p className="block-title__text">We’re delighted to introduce you to a new era in African healthcare. <br />UzimaNexus is dedicated to bridging gaps in the healthcare system, 
                 fostering transparency, accessibility, and accountability 
-                for all. <br />As we face growing health challenges, UzimaNexus provides a transformative platform
-that enables patients and providers to access crucial data anytime, anywhere, securely and
-seamlessly.
-Thank you for choosing UzimaNexus as your partner in healthcare transformation. </p>{/* /.block-title__text */}
+                for all. <br />As we face growing health challenges, UzimaNexus provides a transformative platform that enables patients and providers to access crucial data anytime, 
+                anywhere, securely and seamlessly. Thank you for choosing UzimaNexus as your partner in healthcare transformation.
+                </p>{/* /.block-title__text */}
             </div>{/* /.block-title */}
             <a href="#" className="thm-btn">Learn More</a>
             </div>{/* /.col-lg-7 */}
@@ -74,14 +74,14 @@ Thank you for choosing UzimaNexus as your partner in healthcare transformation. 
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
                 <h3 className="service-three__title"><a href="#">OUR VALUES</a></h3>
-                <p className="service-three__text"><ul>
+                <ul className="service-three__text">
                     <li><b>Transparency: </b>Prioritizing open, accessible health data for all.</li>
                     <li><b>Innovation: </b>Leveraging blockchain, NFC, and AI to empower users.</li>
                     <li><b>Empowerment: </b>Providing patients with control over their own health data.</li>
                     <li> <b>Collaboration: </b>Building partnerships to support scalable, cross-system connectivity.</li>
-                    </ul>
+                   
                 
-                </p>{/* /.service-three__text */}
+                </ul>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
             </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -92,7 +92,10 @@ Thank you for choosing UzimaNexus as your partner in healthcare transformation. 
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
                 <h3 className="service-three__title"><a href="#">OUR MISSION</a></h3>
-                <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                <p className="service-three__text">UzimaNexus empowers healthcare providers and patients by offering a secure, data-sharing
+                        platform tailored for Africa’s unique needs. We strive to drive early diagnoses, efficient
+                        treatment, and trust through a centralized system that simplifies access to health records,
+                        supports referrals, and integrates across diverse healthcare settings.</p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
             </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -180,7 +183,7 @@ Thank you for choosing UzimaNexus as your partner in healthcare transformation. 
             <div className="col-xl-7 d-flex">
             <div className="my-auto">
                 <div className="appointment-two__content">
-                <h3 className="appointment-two__title">Best Hospital Around the Town <br /> with Modern Treatments</h3>{/* /.appointment-two__title */}
+                <h3 className="appointment-two__title">PROJECTS AND INITIATIVES</h3>{/* /.appointment-two__title */}
                 <h3 className="appointment-two__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Quis ipsum sue ultrices gravida. <br /> Risus comcenas accumsan lacua.</h3>{/* /.appointment-two__text */}
                 <div className="appointment-two__feature">
                     <div className="row">
@@ -190,8 +193,13 @@ Thank you for choosing UzimaNexus as your partner in healthcare transformation. 
                             <i className="material-icons">done</i>
                         </div>{/* /.appointment-two__feature-icon */}
                         <div className="appointment-two__feature-content">
-                            <h3 className="appointment-two__feature-title">Modern Advanced Technology</h3>{/* /.appointment-two__feature-title */}
-                            <p className="appointment-two__feature-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>{/* /.appointment-two__feature-text */}
+                            <h3 className="appointment-two__feature-title">Health Access for All</h3>{/* /.appointment-two__feature-title */}
+                            <p className="appointment-two__feature-text">
+                            A cornerstone initiative by UzimaNexus, Health Access for All seeks to integrate health data
+accessibility in remote regions. By partnering with local health facilities, we aim to bridge the
+healthcare access gap, enabling providers to deliver timely and effective care with secure
+patient data access through SMS and USSD.
+                            </p>{/* /.appointment-two__feature-text */}
                         </div>{/* /.appointment-two__feature-content */}
                         </div>{/* /.appointment-two__feature-single */}
                     </div>{/* /.col-lg-12 */}
@@ -201,19 +209,11 @@ Thank you for choosing UzimaNexus as your partner in healthcare transformation. 
                             <i className="material-icons">done</i>
                         </div>{/* /.appointment-two__feature-icon */}
                         <div className="appointment-two__feature-content">
-                            <h3 className="appointment-two__feature-title">24/h Emergency Supports</h3>{/* /.appointment-two__feature-title */}
-                            <p className="appointment-two__feature-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>{/* /.appointment-two__feature-text */}
-                        </div>{/* /.appointment-two__feature-content */}
-                        </div>{/* /.appointment-two__feature-single */}
-                    </div>{/* /.col-lg-12 */}
-                    <div className="col-lg-12">
-                        <div className="appointment-two__feature-single clearfix">
-                        <div className="appointment-two__feature-icon">
-                            <i className="material-icons">done</i>
-                        </div>{/* /.appointment-two__feature-icon */}
-                        <div className="appointment-two__feature-content">
-                            <h3 className="appointment-two__feature-title">Experienced Doctors and Staffs</h3>{/* /.appointment-two__feature-title */}
-                            <p className="appointment-two__feature-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>{/* /.appointment-two__feature-text */}
+                            <h3 className="appointment-two__feature-title">Transparency Economy in Healthcare</h3>{/* /.appointment-two__feature-title */}
+                            <p className="appointment-two__feature-text">UzimaNexus is leading a movement toward a transparency-driven healthcare economy,
+                                    fostering openness and accountability by creating a secure, shareable digital health
+                                    infrastructure for patients and providers.
+                            </p>{/* /.appointment-two__feature-text */}
                         </div>{/* /.appointment-two__feature-content */}
                         </div>{/* /.appointment-two__feature-single */}
                     </div>{/* /.col-lg-12 */}

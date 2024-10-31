@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Header() {
@@ -36,7 +37,7 @@ function Header() {
         <div className="main-navigation">
           <ul className=" navigation-box">
             <li className="current">
-              <a href="index.html">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <a href="pharmacy.html">Departments</a>
@@ -48,7 +49,7 @@ function Header() {
               </ul>{/* /.submenu */}
             </li>
             <li>
-              <a href="about-1.html">About</a>
+              <Link href="/about/About">About</Link>
             </li>
             <li>
               <a href="#">Pages</a>
@@ -62,12 +63,12 @@ function Header() {
 
 
             <li>
-              <a href="blog.html">Blog</a>
+              <Link href="blogs/Blogs">Blog</Link>
               <ul className="submenu">
                 <li><a href="blog-details.html">Blog Details</a></li>
               </ul>{/* /.submenu */}
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><Link href="contact/Contact">Contact</Link></li>
           </ul>
         </div>{/* /.navbar-collapse */}
         <div className="right-side-box">

@@ -1,6 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Footer() {
+    const getCurrentYear = () => new Date().getFullYear();
+
   return (
     <>
     <footer className="footer-one">
@@ -9,7 +12,7 @@ function Footer() {
         <div className="row">
             <div className="col-lg-2 col-md-6 col-sm-12">
             <div className="footer-one__widget footer-one__link-widget">
-                <h3 className="footer-one__widget-title">Nevigation</h3>{/* /.footer-one__widget-title */}
+                <h3 className="footer-one__widget-title">Navigation</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__links-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -28,7 +31,7 @@ function Footer() {
                 <li><a href="#">Our Doctor Team</a></li>
                 <li><a href="#">Departments Service</a></li>
                 <li><a href="#">About Hospital</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact/Contact">Contact</a></li>
                 <li><a href="#">Get Reports</a></li>
                 </ul>{/* /.footer-one__links-list */}
             </div>{/* /.footer-one__widget */}
@@ -83,8 +86,10 @@ function Footer() {
             <div className="row align-items-center">
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-one__widget about-widget">
-                <a href="index.html" className="footer-one__logo"><img src="images/resources/logo-1-2.png" alt="Awesome Image" /></a>
-                <p className="footer-one__text">Lorem ipsum dolorit amet consectetur adipi scing <br /> elit sedo eiusmod incididunt uttom labore etto <br /> dolore magna aliqua.</p>
+                <Link href="/" className="footer-one__logo"><img src="images/resources/logo-1-2.png" alt="Awesome Image" /></Link>
+                <p className="footer-one__text">UzimaNexus is a pioneering health technology platform transforming the African healthcare  landscape. <br />
+                Our mission is to create an accessible and transparent data-sharing system that
+                addresses gaps in healthcare, <br />empowering both patients and providers with seamless, secure access to medical records across diverse settings.</p>
                 <a href="#" className="footer-one__map-link">View on google map</a>
                 </div>{/* /.footer-one_widget */}
             </div>{/* /.col-lg-4 */}
@@ -92,8 +97,7 @@ function Footer() {
                 <div className="footer-one__widget contact-widget">
                 <h3 className="footer-one__widget-title">Email</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__contact-list">
-                    <li className="footer-one__contact-list-item">hello@clainc.com</li>
-                    <li className="footer-one__contact-list-item">emergency@live.com</li>
+                    <li className="footer-one__contact-list-item">info@uzimanexus.com</li>
                 </ul>{/* /.footer-one__contact-list */}
                 </div>{/* /.footer-one_widget */}
             </div>{/* /.col-lg-2 */}
@@ -101,8 +105,8 @@ function Footer() {
                 <div className="footer-one__widget contact-widget">
                 <h3 className="footer-one__widget-title">Phone</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__contact-list">
-                    <li className="footer-one__contact-list-item">+1234 4567 7890</li>
-                    <li className="footer-one__contact-list-item">+009 6612 3456 8</li>
+                    <li className="footer-one__contact-list-item">+254 745943172</li>
+
                 </ul>{/* /.footer-one__contact-list */}
                 </div>{/* /.footer-one_widget */}
             </div>{/* /.col-lg-3 */}
@@ -110,8 +114,8 @@ function Footer() {
                 <div className="footer-one__widget contact-widget">
                 <h3 className="footer-one__widget-title">Address</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__contact-list">
-                    <li className="footer-one__contact-list-item">1234 North Luke Lane,</li>
-                    <li className="footer-one__contact-list-item">South Bend, IN 360001</li>
+                    <li className="footer-one__contact-list-item">Nairobi, Kenya</li>
+
                 </ul>{/* /.footer-one__contact-list */}
                 </div>{/* /.footer-one_widget */}
             </div>{/* /.col-lg-3 */}
@@ -121,7 +125,7 @@ function Footer() {
     </div>{/* /.footer-one__middle */}
     <div className="footer-one__bottom">
         <div className="container">
-        <p className="footer-one__copy-text">© 2019 Clainc | All Right Reserved</p>{/* /.copy-text */}
+        <p className="footer-one__copy-text">© {getCurrentYear()} UzimaNexus | All Right Reserved</p>{/* /.copy-text */}
         <ul className="footer-one__bottom-links">
             <li className="footer-one__bottom-links-item"><a href="#">Privacy and Policy</a></li>
             <li className="footer-one__bottom-links-item"><a href="#">Terms and Services</a></li>

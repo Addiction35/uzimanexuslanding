@@ -32,9 +32,9 @@ function Contact() {
                 <i className="clainc-icon-information-button" />
                 </div>{/* /.contact-one__icon */}
                 <h3 className="contact-one__info__title">Contact Detail</h3>{/* /.contact-one__info__title */}
-                <p className="contact-one__info__text">203, Envato Labs. Alis Steet <br /> Melbourne, Australia.</p>{/* /.contact-one__info__text */}
-                <p className="contact-one__info__text"><span>Call us:</span> <br /> +123 4567 8910</p>{/* /.contact-one__info__text */}
-                <p className="contact-one__info__text"><span>Mail us:</span> <br /> support@mail.com</p>{/* /.contact-one__info__text */}
+                <p className="contact-one__info__text">Nairobi, Kenya</p>{/* /.contact-one__info__text */}
+                <p className="contact-one__info__text"><span>Call us:</span> <br /> +254 745943172</p>{/* /.contact-one__info__text */}
+                <p className="contact-one__info__text"><span>Mail us:</span> <br /> info@uzimanexus.com</p>{/* /.contact-one__info__text */}
                 <div className="contact-one__info__social">
                 <a href="#"><i className="fa fa-facebook-f" /></a>
                 <a href="#"><i className="fa fa-twitter" /></a>
