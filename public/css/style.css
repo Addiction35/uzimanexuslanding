@@ -38,21 +38,22 @@
 * 1. imported style
 */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Source+Sans+Pro:300,400,600,700,900&display=swap");
-@import url("bootstrap.min.css");
-@import url("bootstrap-select.min.css");
-@import url("owl.carousel.css");
-@import url("owl.theme.default.min.css");
-@import url("jquery.bxslider.min.css");
-@import url("bootstrap-datepicker.min.css");
-@import url("animate.css");
-@import url("font-awesome.min.css");
-@import url("magnific-popup.css");
-@import url("material-icons.css");
-@import url("swiper.min.css");
-@import url("hover.min.css");
-@import url("nouislider.css");
-@import url("jquery.bootstrap-touchspin.css");
+@import url("./bootstrap.min.css");
+@import url("./bootstrap-select.min.css");
+@import url("./owl.carousel.css");
+@import url("./owl.theme.default.min.css");
+@import url("./jquery.bxslider.min.css");
+@import url("./bootstrap-datepicker.min.css");
+@import url("./animate.css");
+@import url("./font-awesome.min.css");
+@import url("./magnific-popup.css");
+@import url("./material-icons.css");
+@import url("./swiper.min.css");
+@import url("./hover.min.css");
+@import url("./nouislider.css");
+@import url("./jquery.bootstrap-touchspin.css");
 @import url("../plugins/clainc-icon/style.css");
+
 /*
 * 2. common style
 */
@@ -84,19 +85,19 @@ a:visited {
   }
 }
 .thm-black-bg {
-  background-color: #0f4469;
+  background-color: #0c8919;
 }
 
 .thm-base-bg {
-  background-color: #0384CE;
+  background-color: #0c8919;
 }
 
 .thm-base-bg-2 {
-  background-color: #3156A3;
+  background-color: #1b9e65;
 }
 
 .thm-primary-bg {
-  background-color: #ff6b35;
+  background-color: #14d326;
 }
 
 .thm-gray-bg {
@@ -112,7 +113,7 @@ a:visited {
 }
 
 .thm-primary-color {
-  color: #ff6b35;
+  color: #14d326;
 }
 
 hr.style-one {
@@ -132,7 +133,7 @@ hr.style-one {
   outline: none;
   text-align: center;
   border-radius: 27.5px;
-  background-color: #ff6b35;
+  background-color: #14d326;
   font-size: 18px;
   color: #fff;
   font-weight: bold;
@@ -144,7 +145,7 @@ hr.style-one {
 }
 .thm-btn:hover {
   color: #fff;
-  background-color: #0384CE;
+  background-color: #055c42;
 }
 
 .block-title {
@@ -152,7 +153,7 @@ hr.style-one {
 }
 .block-title__title {
   margin: 0;
-  color: #0f4469;
+  color: #139154;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   font-weight: bold;
@@ -222,19 +223,19 @@ hr.style-one {
   padding-bottom: 10px;
 }
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: #0384CE;
+  background: #039b63;
   color: #fff;
 }
 .bootstrap-select .dropdown-menu > li > a {
   font-size: 16px;
   font-weight: 500;
   padding: 9px 20px;
-  color: #0f4469;
+  color: #27977b;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #0384CE;
+  background: #64a1c5;
   color: #fff;
   cursor: pointer;
 }
@@ -247,7 +248,7 @@ hr.style-one {
   height: 100%;
   z-index: 9999;
   background-color: #fff;
-  background-image: url(../images/resources/preloader.gif);
+  background-image: url(/uzimanexuslanding/public/images/resources/preloader.gif);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -256,7 +257,7 @@ hr.style-one {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background: #0384CE;
+  background: #03834c;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -271,7 +272,7 @@ hr.style-one {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #0384CE;
+  background-color: #1e8f5e;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -325,7 +326,7 @@ hr.style-one {
   background: #fff;
 }
 .scroll-to-top:hover i {
-  color: #0f4469;
+  color: #1e8f5e;
 }
 .scroll-to-top:hover:before, .scroll-to-top:hover:after {
   background-color: #fff;
@@ -335,7 +336,7 @@ hr.style-one {
 * 3. header style
 */
 .topbar-one {
-  background-color: #3156A3;
+  background-color: #1e8f5e;
 }
 .topbar-one .container {
   display: -webkit-box;
@@ -386,7 +387,7 @@ hr.style-one {
 }
 .topbar-one__contact-item a:hover i {
   background-color: #fff;
-  color: #0384CE;
+  color: #c0d6d7;
 }
 .topbar-one__btn {
   display: inline-block;
@@ -395,13 +396,13 @@ hr.style-one {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: #0384CE;
+  background-color: #1e8f5e;
   padding: 22px 35.5px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 .topbar-one__btn:hover {
-  color: #0384CE;
+  color: #09a518;
   background-color: #fff;
 }
 .topbar-one .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -520,7 +521,7 @@ hr.style-one {
   padding: 0px 0px;
   text-align: left;
   list-style: none;
-  background-color: #0f4469;
+  background-color: #1e8f5e;
   background-clip: padding-box;
   opacity: 0;
   border-radius: 0px;
@@ -592,7 +593,7 @@ hr.style-one {
   padding: 0px 0px;
   text-align: left;
   list-style: none;
-  background-color: #0f4469;
+  background-color: #1e8f5e;
   background-clip: padding-box;
   opacity: 0;
   border-radius: 0px;
@@ -639,7 +640,7 @@ hr.style-one {
 }
 .header-navigation ul.navigation-box > li > ul > li > .submenu > li:hover > a {
   color: #fff;
-  background: #ff6b35;
+  background: #09a518;
 }
 .header-navigation ul.navigation-box > li > ul > li:hover > .submenu {
   opacity: 1;
@@ -668,7 +669,7 @@ hr.style-one {
   padding-right: 130px;
 }
 .header-one__dental-one .header-navigation {
-  background-color: #0f4469;
+  background-color: #1e8f5e;
 }
 .header-one__dental-one .header-navigation .container {
   padding-right: 0;
@@ -685,7 +686,7 @@ hr.style-one {
 }
 .header-one__dental-one .header-navigation ul.navigation-box > li.current > a,
 .header-one__dental-one .header-navigation ul.navigation-box > li:hover > a {
-  color: #ff6b35;
+  color: #6c6a6a;
 }
 .header-one__dental-one__btn {
   background-color: transparent;
@@ -693,10 +694,10 @@ hr.style-one {
 }
 .header-one__dental-one__btn:hover {
   background-color: #fff;
-  color: #ff6b35;
+  color: #68625f;
 }
 .header-one__dental-one .stricked-menu {
-  background-color: #0f4469;
+  background-color: #696a6a;
 }
 
 .stricked-menu {
@@ -744,7 +745,7 @@ hr.style-one {
 }
 .header-three .header-navigation ul.navigation-box > li.current > a,
 .header-three .header-navigation ul.navigation-box > li:hover > a {
-  color: #ff6b35;
+  color: #09a518;
 }
 .header-three__btn {
   background-color: transparent;
@@ -752,7 +753,7 @@ hr.style-one {
 }
 .header-three__btn:hover {
   background-color: #fff;
-  color: #ff6b35;
+  color: #09a518;
 }
 .header-three .stricked-menu {
   background-color: #0384CE;
@@ -800,7 +801,7 @@ hr.style-one {
 .topbar-two__info-icon i {
   width: 50px;
   height: 50px;
-  background-color: #0384CE;
+  background-color: #1e8f5e;
   color: #fff;
   line-height: 50px;
   text-align: center;
@@ -830,7 +831,7 @@ hr.style-one {
 }
 
 .topbar-three {
-  background-color: #0384CE;
+  background-color: #1e8f5e;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -880,46 +881,18 @@ hr.style-one {
   transition: all .4s ease;
 }
 .topbar-three__link:hover {
-  color: #ff6b35;
+  color: #09a518;
 }
 .topbar-three__link:hover i {
-  background-color: #0f4469;
+  background-color: #1e8f5e;
   color: #fff;
 }
 .topbar-three__link + .topbar-three__link {
   margin-left: 10px;
 }
 
-.header-one__shop {
-  background-color: #FAFAFA;
-}
-.header-one__shop-btn {
-  color: #0384CE;
-  font-size: 20px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-.header-one__shop-btn .count {
-  display: inline-block;
-  background-color: #ff6b35;
-  width: 18px;
-  height: 18px;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-  line-height: 14px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  -webkit-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.header-one__shop-btn + .header-one__shop-btn {
-  margin-left: 25px;
-}
+
+
 
 /*
 * 4. banner style
@@ -1267,7 +1240,7 @@ hr.style-one {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3156a3;
+  background-color: #09a518;
   opacity: .7;
   z-index: 9;
 }
@@ -1406,7 +1379,7 @@ hr.style-one {
 .appointment-one__switch.active, .appointment-one__switch:active, .appointment-one__switch:focus {
   border-color: #0384CE;
   color: #fff;
-  background-color: #0384CE;
+  background-color: #09a518;
 }
 .appointment-one__switch:last-child {
   border: 1px solid #CACACA;
@@ -1484,7 +1457,7 @@ hr.style-one {
 }
 .appointment-two__form-top {
   padding: 30px;
-  background-color: #3156a3;
+  background-color: #09a518;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -1579,7 +1552,7 @@ hr.style-one {
   cursor: pointer;
   width: 100%;
   height: 100%;
-  background-color: #ff6b35;
+  background-color: #0c8919;
   border-radius: 0;
   color: #fff;
   text-align: center;
@@ -1591,7 +1564,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .appointment-two__form-btn:hover {
-  background-color: #0384CE;
+  background-color: #09a518;
   color: #fff;
 }
 .appointment-two__title {
@@ -1659,7 +1632,7 @@ hr.style-one {
   height: 20px;
   border-radius: 50%;
   text-align: center;
-  background-color: #42b3e5;
+  background-color: #0c8919;
   color: #fff;
   line-height: 20px;
   font-size: 16px;
@@ -1719,7 +1692,7 @@ hr.style-one {
   background-color: white;
 }
 .appointment-table .table thead {
-  background-color: #0384CE;
+  background-color: #0c8919;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -1889,7 +1862,7 @@ hr.style-one {
   content: '';
   width: 454px;
   height: 31px;
-  background: transparent url(../images/resources/zig-zag-1.png) center center no-repeat;
+  background: transparent url(/uzimanexuslanding/public/images/resources/zig-zag-1.png) center center no-repeat;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1970,7 +1943,7 @@ hr.style-one {
   margin-right: 15px;
 }
 .schedule-one .nav-tabs .nav-link.active {
-  background-color: #0384CE;
+  background-color: #0c8919;
   color: #fff !important;
 }
 
@@ -2028,7 +2001,7 @@ hr.style-one {
   height: 20px;
   border-radius: 50%;
   text-align: center;
-  background-color: #42b3e5;
+  background-color: #0c8919;
   color: #fff;
   line-height: 20px;
   font-size: 16px;
@@ -2077,7 +2050,7 @@ hr.style-one {
   margin-top: 60px;
 }
 .about-two__about-page {
-  background-color: #3156A3;
+  background-color: #0c8919;
 }
 .about-two__about-page .container {
   position: relative;
@@ -2097,7 +2070,7 @@ hr.style-one {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: rgba(58, 95, 168, 0.9);
+  background-color: rgb(9, 152, 64);
   text-align: center;
   line-height: 60px;
   color: #fff;
@@ -2492,22 +2465,12 @@ hr.style-one {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
-.service-tab .tab-title .nav-item .nav-link:before {
-  content: '';
-  width: 1px;
-  height: 65px;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
+
 .service-tab .tab-title .nav-item .nav-link:after {
   content: '';
   width: 100%;
   height: 3px;
-  background-color: #FF6B35;
+  background-color: #0c8919;
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -2891,7 +2854,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .feature-one__title a:hover {
-  color: #ff6b35;
+  color: #12b723;
 }
 .feature-one__text {
   margin: 0;
@@ -3016,7 +2979,7 @@ hr.style-one {
   content: '';
   width: 100%;
   height: 2px;
-  background-color: #ff6b35;
+  background-color: #22dc15;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3038,7 +3001,7 @@ hr.style-one {
 }
 .feature-two .nav-tabs .nav-item.show .nav-link,
 .feature-two .nav-tabs .nav-link.active {
-  color: #ff6b35;
+  color: #87eb1c;
 }
 .feature-two__btn {
   margin-top: 60px;
@@ -3161,7 +3124,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .feature-three__title a:hover {
-  color: #ff6b35;
+  color: #071f0ce3;
 }
 .feature-three__text {
   margin: 0;
@@ -3189,9 +3152,9 @@ hr.style-one {
   margin-left: 30px;
 }
 .feature-three__btn:hover {
-  background-color: #ff6b35;
+  background-color: #62b86f;
   color: #fff;
-  border-color: #ff6b35;
+  border-color: #14d33a;
 }
 .feature-three__contact {
   margin: 0;
@@ -3286,7 +3249,7 @@ hr.style-one {
   margin-top: 17px;
 }
 .feature-three__home-three .feature-three__single {
-  background-color: #0384CE;
+  background-color: #068e1ffe;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
 }
@@ -3735,7 +3698,7 @@ hr.style-one {
   content: '';
   width: 23px;
   height: 18px;
-  background: transparent url(../images/resources/testi-arrow.png) center center no-repeat;
+  background: transparent url(/uzimanexuslanding/public/images/resources/testi-arrow.png) center center no-repeat;
   position: absolute;
   top: 100%;
   left: 45px;
@@ -4051,7 +4014,7 @@ hr.style-one {
   width: 100%;
 }
 .blog-one__image-hover {
-  background-color: rgba(3, 132, 206, 0.8);
+  background-color: #09a518;
   position: absolute;
   top: 0;
   left: 0;
@@ -4101,7 +4064,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .blog-one__hvr-link:hover {
-  background-color: #0f4469;
+  background-color: #09a518;
 }
 .blog-one__hvr-link:hover i {
   color: #fff;
@@ -4347,7 +4310,7 @@ hr.style-one {
   width: 100%;
 }
 .blog-two__image-hover {
-  background-color: rgba(3, 132, 206, 0.8);
+  background-color: #09a518;
   position: absolute;
   top: 0;
   left: 0;
@@ -4397,7 +4360,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .blog-two__hvr-link:hover {
-  background-color: #0f4469;
+  background-color: #09a518;
 }
 .blog-two__hvr-link:hover i {
   color: #fff;
@@ -4481,7 +4444,7 @@ hr.style-one {
   width: 100%;
 }
 .blog-three__image-hover {
-  background-color: rgba(3, 132, 206, 0.8);
+  background-color: #09a518;
   position: absolute;
   top: 0;
   left: 0;
@@ -4899,19 +4862,19 @@ hr.style-one {
   color: #fff;
 }
 .blog-details__share-link:nth-child(2) {
-  background-color: #3B5999;
+  background-color: #14d326;
 }
 .blog-details__share-link:nth-child(3) {
-  background-color: #399FED;
+  background-color: #14d326;
 }
 .blog-details__share-link:nth-child(4) {
-  background-color: #BD081C;
+  background-color: #14d326;
 }
 .blog-details__share-link:nth-child(5) {
   background-color: #1CC15A;
 }
 .blog-details__share-link:nth-child(6) {
-  background-color: #0084FF;
+  background-color: #14d326;
 }
 .blog-details__share-link + .blog-details__share-link {
   margin-left: 10px;
@@ -4999,9 +4962,9 @@ hr.style-one {
   background-color: transparent;
 }
 .comment-one__btn:hover {
-  background-color: #ff6b35;
+  background-color: #09a518;
   color: #fff;
-  border-color: #ff6b35;
+  border-color: #09a518;
 }
 
 .contact-one__form-comment-form {
@@ -5022,7 +4985,7 @@ hr.style-one {
 * 12. footer style
 */
 .footer-one {
-  background-color: #3156A3;
+  background-color: #1e8f5e;
 }
 
 .footer-one__top {
@@ -5080,7 +5043,7 @@ hr.style-one {
 .footer-one__links-list li a:before {
   content: '\f101';
   font-family: 'FontAwesome';
-  color: #ff6b35;
+  color: #1f1e1e;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -5115,9 +5078,9 @@ hr.style-one {
 .footer-one__map-link {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #42B3E5;
+  color: #c2d2d8;
   line-height: 1em;
-  border-bottom: 1px solid #42B3E5;
+  border-bottom: 1px solid #1e8f5e;
   font-weight: bold;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
@@ -5215,7 +5178,7 @@ hr.style-one {
 }
 
 .footer-one__bottom {
-  background-color: #264380;
+  background-color: #055c42;
   padding: 16.5px 0;
 }
 .footer-one__bottom .container {
@@ -5622,7 +5585,7 @@ hr.style-one {
   margin-top: 5px;
 }
 .team-one__hover-content {
-  background-color: rgba(3, 132, 206, 0.8);
+  background-color: #4be932;
   position: absolute;
   top: 0;
   left: 0;
@@ -5672,7 +5635,7 @@ hr.style-one {
   transition: all .4s ease;
 }
 .team-one__hvr-link:hover {
-  background-color: #0f4469;
+  background-color: #09a518;
 }
 .team-one__hvr-link:hover i {
   color: #fff;
@@ -6091,7 +6054,7 @@ hr.style-one {
   content: '';
   width: 100%;
   height: 100%;
-  background-color: #3156a3;
+  background-color: #0c8919;
   opacity: .9;
   position: absolute;
   top: 0;

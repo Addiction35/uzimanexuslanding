@@ -1,10 +1,14 @@
+"use client";
+import { useEffect } from 'react';
+
 import React from 'react';
 
 function Contact() {
+
   return (
     <>
     <div>
-    <section className="inner-banner" style={{backgroundImage: 'url(images/resources/inner-banner-1-2.jpg)'}}>
+    <section className="inner-banner" style={{backgroundImage: 'url(/images/resources/inner-banner-1-2.jpg)'}}>
         <div className="container">
         <h2 className="inner-banner__title">Contact Informations</h2>
         <ul className="thm-breadcrumb">

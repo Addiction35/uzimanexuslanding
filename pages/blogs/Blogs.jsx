@@ -4,94 +4,18 @@ function Blogs() {
   return (
     <>
     <div>
-        <section className="inner-banner" style={{backgroundImage: 'url(images/resources/inner-banner-1-11.jpg)'}}>
+        <section className="inner-banner" style={{backgroundImage: 'url(/images/resources/inner-banner-1-11.jpg)'}}>
             <div className="container">
             <h2 className="inner-banner__title">Our Departments</h2>
             <ul className="thm-breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><span className="sep">/</span></li>
                 <li><span className="page-title">Services</span></li>
             </ul>{/* /.thm-breadcrumb */}
             </div>{/* /.container */}
         </section>{/* /.inner-banner */}
-        <section className="service-three">
-            <div className="container">
-            <div className="block-title text-center">
-                <h2 className="block-title__title">Why We Are Best in The Town</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
-            </div>{/* /.block-title */}
-            <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-doctor" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Experience Doctors</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-ambulance1" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Emergency Treatments</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-save-the-earth" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Better Enverionment</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-shield" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Quality and Saftey</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-medicine" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Special Medicine</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="service-three__single">
-                    <div className="service-three__icon">
-                    <i className="clainc-icon-noun_heart-beat_1684580" />
-                    </div>{/* /.service-three__icon */}
-                    <div className="service-three__content">
-                    <h3 className="service-three__title"><a href="#">Advanced Surgeries</a></h3>
-                    <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                    </div>{/* /.service-three__content */}
-                </div>{/* /.service-three__single */}
-                </div>{/* /.col-lg-4 */}
-            </div>{/* /.row */}
-            </div>{/* /.container */}
-        </section>{/* /.service-three */}
         <section className="testimonials-three">
-            <div className="testimonials-three__background-image" style={{backgroundImage: 'url(images/background/testi-bg-1-3.jpg)'}} />{/* /.testimonials-one__background-image */}
+            <div className="testimonials-three__background-image" style={{backgroundImage: 'url(/images/background/testi-bg-1-3.jpg)'}} />{/* /.testimonials-one__background-image */}
             <div className="container">
             <div className="row">
                 <div className="col-lg-5">
@@ -211,70 +135,6 @@ function Blogs() {
             </div>{/* /.item */}
             </div>{/* /.testimonials-three__carousel */}
         </section>{/* /.testimonials-three */}
-        <section className="service-two">
-            <div className="container">
-            <div className="block-title text-center">
-                <h2 className="block-title__title">Our Departments</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
-            </div>{/* /.block-title */}
-            <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-heart service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Cardiology</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-brain service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Neurology</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-tooth1 service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Dental Care</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-baby-boy service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Pediatrics</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-eye service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Eyes Care</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-                <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="hvr-float-shadow service-two__wrap">
-                    <div className="service-two__single hvr-bounce-to-bottom">
-                    <i className="clainc-icon-kidney service-two__icon" />
-                    <h3 className="service-two__title"><a href="#">Hepatology</a></h3>{/* /.service-two__title */}
-                    <p className="service-two__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-two__text */}
-                    </div>{/* /.service-two__single */}
-                </div>{/* /.hvr-float-shadow */}
-                </div>{/* /.col-lg-4 col-md-6 col-sm-12 */}
-            </div>{/* /.row */}
-            </div>{/* /.container */}
-        </section>{/* /.service-two */}
         <section className="thm-gray-bg appointment-table">
             <div className="container">
             <div className="row no-gutters">

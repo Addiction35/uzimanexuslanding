@@ -1,8 +1,14 @@
 import Link from 'next/link';
-import React from 'react';
+import Image from 'next/image';
+import React, { useEffect, useState} from 'react';
 
 function Footer() {
-    const getCurrentYear = () => new Date().getFullYear();
+    const [currentYear, setCurrentYear] = useState(null);
+
+    useEffect(() => {
+      const getCurrentYear = () => new Date().getFullYear();
+      setCurrentYear(getCurrentYear());
+    }, []); 
 
   return (
     <>
@@ -28,37 +34,9 @@ function Footer() {
                 <h3 className="footer-one__widget-title">Quick Links</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__links-list">
                 <li><a href="#">Get Appointment</a></li>
-                <li><a href="#">Our Doctor Team</a></li>
-                <li><a href="#">Departments Service</a></li>
-                <li><a href="#">About Hospital</a></li>
-                <li><a href="contact/Contact">Contact</a></li>
+                <li><a href="/about/About">About UzimaNexus</a></li>
+                <li><a href="/contact/Contact">Contact</a></li>
                 <li><a href="#">Get Reports</a></li>
-                </ul>{/* /.footer-one__links-list */}
-            </div>{/* /.footer-one__widget */}
-            </div>{/* /.col-lg-2 */}
-            <div className="col-lg-2 col-md-6 col-sm-12">
-            <div className="footer-one__widget footer-one__link-widget">
-                <h3 className="footer-one__widget-title">Departments</h3>{/* /.footer-one__widget-title */}
-                <ul className="footer-one__links-list">
-                <li><a href="#">Cardiology</a></li>
-                <li><a href="#">Pediatric</a></li>
-                <li><a href="#">Phychology</a></li>
-                <li><a href="#">Dental</a></li>
-                <li><a href="#">Neurology</a></li>
-                <li><a href="#">Orthopedics</a></li>
-                </ul>{/* /.footer-one__links-list */}
-            </div>{/* /.footer-one__widget */}
-            </div>{/* /.col-lg-2 */}
-            <div className="col-lg-2 col-md-6 col-sm-12">
-            <div className="footer-one__widget footer-one__link-widget">
-                <h3 className="footer-one__widget-title">Emergency</h3>{/* /.footer-one__widget-title */}
-                <ul className="footer-one__links-list">
-                <li><a href="#">Appointment</a></li>
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Cabins</a></li>
-                <li><a href="#">Treatments</a></li>
-                <li><a href="#">Surgery</a></li>
-                <li><a href="#">Consultancy</a></li>
                 </ul>{/* /.footer-one__links-list */}
             </div>{/* /.footer-one__widget */}
             </div>{/* /.col-lg-2 */}
@@ -86,7 +64,7 @@ function Footer() {
             <div className="row align-items-center">
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-one__widget about-widget">
-                <Link href="/" className="footer-one__logo"><img src="images/resources/logo-1-2.png" alt="Awesome Image" /></Link>
+                <Link href="/" className="footer-one__logo"><Image width={200} height={100} src="/images/resources/logo-1-2.png" alt="Awesome Image" /></Link>
                 <p className="footer-one__text">UzimaNexus is a pioneering health technology platform transforming the African healthcare  landscape. <br />
                 Our mission is to create an accessible and transparent data-sharing system that
                 addresses gaps in healthcare, <br />empowering both patients and providers with seamless, secure access to medical records across diverse settings.</p>
@@ -122,10 +100,11 @@ function Footer() {
             </div>{/* /.row */}
         </div>{/* /.inner-container */}
         </div>{/* /.container */}
-    </div>{/* /.footer-one__middle */}
+    </div>
+    {/* /.footer-one__middle */}
     <div className="footer-one__bottom">
         <div className="container">
-        <p className="footer-one__copy-text">© {getCurrentYear()} UzimaNexus | All Right Reserved</p>{/* /.copy-text */}
+        {<p className="footer-one__copy-text">© currentYear &&  {currentYear}UzimaNexus | All Right Reserved</p>}{/* /.copy-text */}
         <ul className="footer-one__bottom-links">
             <li className="footer-one__bottom-links-item"><a href="#">Privacy and Policy</a></li>
             <li className="footer-one__bottom-links-item"><a href="#">Terms and Services</a></li>

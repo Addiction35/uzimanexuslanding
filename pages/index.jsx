@@ -1,9 +1,13 @@
 
+"use client";
 
+import Team from '@/components/layouts/team/Team';
+import { useEffect } from 'react';
 
 
 
 export default function Home() {
+
 
   
   return (
@@ -11,23 +15,23 @@ export default function Home() {
     <div>
       <div className="banner-wrapper">
         <section className="banner-one banner-carousel__one no-dots owl-theme owl-carousel">
-          <div className="banner-one__slide banner-one__slide-one" style={{backgroundImage: 'url(images/slider/slider-4-1.jpg)'}}>
+          <div className="banner-one__slide banner-one__slide-one" style={{backgroundImage: 'url(/images/slider/slider-4-1.jpg)'}}>
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-lg-12 text-center">
-                  <h3 className="banner-one__title banner-one__light-color">Better Technology For <br /> Better Health Care</h3>{/* /.banner-one__title */}
-                  <p className="banner-one__text banner-one__light-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt<br /> utabore dolore magna aliqua. Quis ipsum suspendisse  ultrices gravida. Risus commodo <br /> viverra maecenas accumsan lacus vel facilisis. </p>{/* /.banner-one__text */}
+                  <h3 className="banner-one__title banner-one__light-color">The Ecosystem for All African Healthcare Providers</h3>{/* /.banner-one__title */}
+                  <p className="banner-one__text banner-one__light-color">Our platform provides a seamless experience for <br /> patients, doctors, medical engineering manufactures, pharmas, and all other healthcare providers.</p>{/* /.banner-one__text */}
                   <a href="#" className="thm-btn banner-one__btn">Learn More</a>
                 </div>{/* /.col-lg-6 */}
               </div>{/* /.row */}
             </div>{/* /.container */}
           </div>{/* /.banner-one__slide */}
-          <div className="banner-one__slide banner-one__slide-two" style={{backgroundImage: 'url(images/slider/slider-4-2.jpg)'}}>
+          <div className="banner-one__slide banner-one__slide-two" style={{backgroundImage: 'url(/images/slider/slider-4-2.jpg)'}}>
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-lg-6">
-                  <h3 className="banner-one__title banner-one__light-color">Better Technology For <br /> Better Health Care</h3>{/* /.banner-one__title */}
-                  <p className="banner-one__text banner-one__light-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utabore dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>{/* /.banner-one__text */}
+                  <h3 className="banner-one__title banner-one__light-color">Become part of the healhcare ecosystem</h3>{/* /.banner-one__title */}
+                  <p className="banner-one__text banner-one__light-color">Our clinic version, Consultvrse provides a seamless experience for doctors to efficiently manage their practices.</p>{/* /.banner-one__text */}
                   <a href="#" className="thm-btn banner-one__btn">Learn More</a>
                 </div>{/* /.col-lg-6 */}
               </div>{/* /.row */}
@@ -91,10 +95,15 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className="about-three__content">
-                <h3 className="about-three__title">About Our Hospital</h3>{/* /.about-three__title */}
-                <p className="about-three__tag-line">Better health care with efficient cost is the main <br /> focuse of our hospital. </p>{/* /.about-three__tag-line */}
-                <p className="about-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis <br /> ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas <br /> accumsan lacus vel facilisis.</p>
-                <p className="about-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis <br /> ipsum suspendisse ultrices gravida. </p>{/* /.about-three__text */}
+                <h3 className="about-three__title">Welcome to UzimaNexus.</h3>{/* /.about-three__title */}
+                <p className="about-three__tag-line">Healthcare Ecosystem for Everyone</p>{/* /.about-three__tag-line */}
+                <p className="about-three__text">We’re delighted to introduce you to a new era in African healthcare. UzimaNexus is dedicated to
+                  bridging gaps in the healthcare system, fostering transparency, accessibility, and accountability
+                  for all. <br /> As we face growing health challenges, UzimaNexus provides a transformative platform
+                  that enables patients and providers to access crucial data anytime, anywhere, securely and
+                  seamlessly. <br />
+                  Thank you for choosing UzimaNexus as your partner in healthcare transformation.</p>
+                
                 <a href="#" className="about-three__btn thm-btn">Learn More</a>
               </div>{/* /.about-three__content */}
             </div>{/* /.col-lg-6 */}
@@ -133,7 +142,7 @@ export default function Home() {
                       <div className="about-three__box-icon">
                         <i className="clainc-icon-doctor" />
                       </div>{/* /.about-three__box-icon */}
-                      <h3 className="about-three__box-title"><a href="#">24/7 Dedicated Doctors</a></h3>{/* /.about-three__box-title */}
+                      <h3 className="about-three__box-title"><a href="#">24/7 Dedicated Experts</a></h3>{/* /.about-three__box-title */}
                       <p className="about-three__box-text">Lorem ipsum dolor sit amet, conse the ctetur adipisc elitedo eiusmod.</p>{/* /.about-three__box-text */}
                     </div>{/* /.about-three__box */}
                   </div>{/* /.col-lg-6 */}
@@ -331,7 +340,10 @@ export default function Home() {
             <div className="col-xl-7">
               <div className="block-title">
                 <h2 className="block-title__title">Our Missions and Visions</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. <br /> Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>{/* /.block-title__text */}
+                <p className="block-title__text">UzimaNexus empowers healthcare providers and patients by offering a secure, data-sharing
+platform tailored for Africa’s unique needs. We strive to drive early diagnoses, efficient
+treatment, and trust through a centralized system that simplifies access to health records,
+supports referrals, and integrates across diverse healthcare settings.</p>{/* /.block-title__text */}
               </div>{/* /.block-title */}
               <div className="team-three__list team-three__pager">
                 <div className="row">
@@ -588,96 +600,7 @@ export default function Home() {
           </div>{/* /.row */}
         </div>{/* /.container */}
       </section>{/* /.fun-fact-two */}
-      <section className="team-two">
-        <div className="container">
-          <div className="block-title text-center">
-            <h2 className="block-title__title">Meet With Our Specialists</h2>{/* /.block-title__title */}
-            <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
-          </div>{/* /.block-title */}
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-two__single">
-                <div className="team-two__image">
-                  <img src="/images/team/team-2-1.jpg" alt="Awesome Image" />
-                </div>{/* /.team-two__image */}
-                <div className="team-two__content">
-                  <h3 className="team-two__title"><a href="#">Florence Mccrudden</a></h3>
-                  <p className="team-two__designation">Cardiologist</p>{/* /.team-two__designation */}
-                  <div className="team-two__social">
-                    <a href="#"><i className="fa fa-facebook-f" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-pinterest-p" /></a>
-                  </div>{/* /.team-two__social */}
-                </div>{/* /.team-two__content */}
-                <div className="team-two__hover-content">
-                  <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
-                  <a href="#" className="team-one__hvr-link"><i className="material-icons">email</i></a>
-                </div>{/* /.team-two__hover-content */}
-              </div>{/* /.team-two__single */}
-            </div>{/* /.col-lg-3 */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-two__single">
-                <div className="team-two__image">
-                  <img src="/images/team/team-2-2.jpg" alt="Awesome Image" />
-                </div>{/* /.team-two__image */}
-                <div className="team-two__content">
-                  <h3 className="team-two__title"><a href="#">Tracie Hirata</a></h3>
-                  <p className="team-two__designation">Orthopedic</p>{/* /.team-two__designation */}
-                  <div className="team-two__social">
-                    <a href="#"><i className="fa fa-facebook-f" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-pinterest-p" /></a>
-                  </div>{/* /.team-two__social */}
-                </div>{/* /.team-two__content */}
-                <div className="team-two__hover-content">
-                  <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
-                  <a href="#" className="team-one__hvr-link"><i className="material-icons">email</i></a>
-                </div>{/* /.team-two__hover-content */}
-              </div>{/* /.team-two__single */}
-            </div>{/* /.col-lg-3 */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-two__single">
-                <div className="team-two__image">
-                  <img src="/images/team/team-2-3.jpg" alt="Awesome Image" />
-                </div>{/* /.team-two__image */}
-                <div className="team-two__content">
-                  <h3 className="team-two__title"><a href="#">Stevie Morino</a></h3>
-                  <p className="team-two__designation">Neurologist</p>{/* /.team-two__designation */}
-                  <div className="team-two__social">
-                    <a href="#"><i className="fa fa-facebook-f" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-pinterest-p" /></a>
-                  </div>{/* /.team-two__social */}
-                </div>{/* /.team-two__content */}
-                <div className="team-two__hover-content">
-                  <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
-                  <a href="#" className="team-one__hvr-link"><i className="material-icons">email</i></a>
-                </div>{/* /.team-two__hover-content */}
-              </div>{/* /.team-two__single */}
-            </div>{/* /.col-lg-3 */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-two__single">
-                <div className="team-two__image">
-                  <img src="/images/team/team-2-4.jpg" alt="Awesome Image" />
-                </div>{/* /.team-two__image */}
-                <div className="team-two__content">
-                  <h3 className="team-two__title"><a href="#">Madie Ricciardelli</a></h3>
-                  <p className="team-two__designation">Eyes Care</p>{/* /.team-two__designation */}
-                  <div className="team-two__social">
-                    <a href="#"><i className="fa fa-facebook-f" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-pinterest-p" /></a>
-                  </div>{/* /.team-two__social */}
-                </div>{/* /.team-two__content */}
-                <div className="team-two__hover-content">
-                  <a className="team-one__hvr-link" href="#"><i className="material-icons">phone</i></a>
-                  <a href="#" className="team-one__hvr-link"><i className="material-icons">email</i></a>
-                </div>{/* /.team-two__hover-content */}
-              </div>{/* /.team-two__single */}
-            </div>{/* /.col-lg-3 */}
-          </div>{/* /.row */}
-        </div>{/* /.container */}
-      </section>{/* /.team-two -*/}
+      < Team />
     </div>
     </>
   );
