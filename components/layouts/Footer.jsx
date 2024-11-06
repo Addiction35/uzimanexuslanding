@@ -64,7 +64,7 @@ function Footer() {
             <div className="row align-items-center">
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-one__widget about-widget">
-                <Link href="/" className="footer-one__logo"><Image width={200} height={100} src="/images/resources/logo-1-2.png" alt="Awesome Image" /></Link>
+                <Link href="/" className="footer-one__logo"><Image width={100} height={100} src="/images/resources/Uzimanexus logo.svg" alt="Awesome Image" /></Link>
                 <p className="footer-one__text">UzimaNexus is a pioneering health technology platform transforming the African healthcare  landscape. <br />
                 Our mission is to create an accessible and transparent data-sharing system that
                 addresses gaps in healthcare, <br />empowering both patients and providers with seamless, secure access to medical records across diverse settings.</p>
