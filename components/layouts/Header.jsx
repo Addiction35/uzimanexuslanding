@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -5,6 +6,8 @@ import React from 'react';
 
 
 function Header() {
+
+
   return (
 <>
 <div>
@@ -17,8 +20,7 @@ function Header() {
       <div className="topbar-one__buttons">
         <select className="selectpicker topbar-one__language">
           <option>En</option>
-          <option>Bn</option>
-          <option>Du</option>
+          <option>Sw</option>
         </select>
         <a href="#" className="topbar-one__btn">Log In</a>
       </div>{/* /.topbar-one__buttons */}
@@ -30,7 +32,7 @@ function Header() {
         {/* Brand and toggle get grouped for better mobile display */}
         <div className="logo-box clearfix">
           <a className="navbar-brand" href="/">
-            <Image src='/images/resources/Uzimanexus logo.svg' className="main-logo" width={350}  height={120} alt="Awesome Image" />
+            <Image src='/images/resources/Uzimanexus logo.svg' className="main-logo" width={290}  height={90} alt=" Main Logo" />
           </a>
           <button className="menu-toggler" data-target=".main-navigation">
             <span className="fa fa-bars" />
@@ -40,16 +42,15 @@ function Header() {
         <div className="main-navigation">
           <ul className=" navigation-box">
             <li className="current">
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
               <Link href="/about/About">About</Link>
             </li>
             <li>
-              <a href="/#">Pages</a>
+              <a href=''>Pages</a>
               <ul className="submenu">
-                <li><a href="#">Team</a></li>
-                <li><a href="#">History</a></li>
+                <li><a href="/Team/OurTeam">Team</a></li>
                 <li><a href="#">FAQ</a></li>
               </ul>{/* /.submenu */}
             </li> 

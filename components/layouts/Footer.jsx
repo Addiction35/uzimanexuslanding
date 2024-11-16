@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState} from 'react';
@@ -33,10 +34,8 @@ function Footer() {
             <div className="footer-one__widget footer-one__link-widget">
                 <h3 className="footer-one__widget-title">Quick Links</h3>{/* /.footer-one__widget-title */}
                 <ul className="footer-one__links-list">
-                <li><a href="#">Get Appointment</a></li>
                 <li><a href="/about/About">About UzimaNexus</a></li>
                 <li><a href="/contact/Contact">Contact</a></li>
-                <li><a href="#">Get Reports</a></li>
                 </ul>{/* /.footer-one__links-list */}
             </div>{/* /.footer-one__widget */}
             </div>{/* /.col-lg-2 */}
@@ -68,7 +67,6 @@ function Footer() {
                 <p className="footer-one__text">UzimaNexus is a pioneering health technology platform transforming the African healthcare  landscape. <br />
                 Our mission is to create an accessible and transparent data-sharing system that
                 addresses gaps in healthcare, <br />empowering both patients and providers with seamless, secure access to medical records across diverse settings.</p>
-                <a href="#" className="footer-one__map-link">View on google map</a>
                 </div>{/* /.footer-one_widget */}
             </div>{/* /.col-lg-4 */}
             <div className="col-lg-2 col-md-6 col-sm-12">
@@ -104,11 +102,10 @@ function Footer() {
     {/* /.footer-one__middle */}
     <div className="footer-one__bottom">
         <div className="container">
-        {<p className="footer-one__copy-text">© currentYear &&  {currentYear}UzimaNexus | All Right Reserved</p>}{/* /.copy-text */}
+        {<p className="footer-one__copy-text">© {currentYear} UzimaNexus | All Right Reserved</p>}{/* /.copy-text */}
         <ul className="footer-one__bottom-links">
             <li className="footer-one__bottom-links-item"><a href="#">Privacy and Policy</a></li>
             <li className="footer-one__bottom-links-item"><a href="#">Terms and Services</a></li>
-            <li className="footer-one__bottom-links-item"><a href="#">Developers</a></li>
         </ul>{/* /.footer-one__bottom-links */}
         </div>{/* /.container */}
     </div>{/* /.footer-one__bottom */}

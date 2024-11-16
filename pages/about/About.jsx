@@ -8,7 +8,7 @@ function About() {
   return (
     <>
     <div>
-    <section className="inner-banner" style={{backgroundImage: 'url(/images/resources/inner-banner-1-9.jpg)'}}>
+    <section className="inner-banner" style={{backgroundImage: 'url(/images/resources/About.jpg)'}}>
         <div className="container">
         <h2 className="inner-banner__title">About Us</h2>
         <ul className="thm-breadcrumb">
@@ -22,10 +22,10 @@ function About() {
         <div className="container">
         <div className="about-four__image-block">
             <div className="about-four__image-one">
-            <img src="/images/resources/about-5-1.jpg" alt="Awesome Image" />
+            <img src="/images/resources/Background1.jpg" alt="Awesome Image"style={{width: 400}, {height: 500}} />
             </div>{/* /.about-four__image-one */}
             <div className="about-four__image-two">
-            <img src="/images/resources/about-5-2.jpg" alt="Awesome Image" />
+            <img src="/images/resources/Background2.jpg" alt="Awesome Image" style={{width: 400}, {height: 500}}/>
             </div>{/* /.about-four__image-two */}
         </div>{/* /.about-four__image-block */}
         <div className="row">
@@ -111,7 +111,7 @@ function About() {
         </div>{/* /.container */}
     </section>{/* /.service-three */}
     <section className="fun-fact-two">
-        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(/images/background/fun-fact-bg-1-1.jpg)'}} />{/* /.fun-fact-two__background-image */}
+        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(/images/background/Background1.jpg)'}} />{/* /.fun-fact-two__background-image */}
         <div className="container">
         <div className="block-title text-center">
             <h2 className="block-title__title block-title__light-color">Our Target</h2>{/* /.block-title__title */}
@@ -153,7 +153,7 @@ function About() {
     </section>{/* /.fun-fact-two */}
     <section className="appointment-two appointment-two__about-one">
         <div className="appointment-two__about-one__image-block">
-        <img src="/images/resources/about-6-1.jpg" alt="Awesome Image" />
+        <img src="/images/resources/About52.jpg" alt="Awesome Image" style={{width: 600}, {height: 700}}/>
         </div>{/* /.appointment-two__about-one__image-block */}
         <div className="container">
         <div className="row no-gutters justify-content-end">

@@ -1,8 +1,9 @@
 
 "use client";
 
+import Collaborators from '@/components/collaborators/collaborators';
 import Team from '@/components/layouts/team/Team';
-import { useEffect } from 'react';
+
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
     <div>
       <div className="banner-wrapper">
         <section className="banner-one banner-carousel__one no-dots owl-theme owl-carousel">
-          <div className="banner-one__slide banner-one__slide-one" style={{backgroundImage: 'url(/images/slider/slider-4-1.jpg)'}}>
+          <div className="banner-one__slide banner-one__slide-one" style={{backgroundImage: 'url(/images/slider/Slider2.jpg)'}}>
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-lg-12 text-center">
@@ -26,7 +27,7 @@ export default function Home() {
               </div>{/* /.row */}
             </div>{/* /.container */}
           </div>{/* /.banner-one__slide */}
-          <div className="banner-one__slide banner-one__slide-two" style={{backgroundImage: 'url(/images/slider/slider-4-2.jpg)'}}>
+          <div className="banner-one__slide banner-one__slide-two" style={{backgroundImage: 'url(/images/slider/Slider3.jpg)'}}>
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-lg-6">
@@ -116,7 +117,7 @@ export default function Home() {
                         <i className="clainc-icon-prize-badge-with-star-and-ribbon" />
                       </div>{/* /.about-three__box-icon */}
                       <h3 className="about-three__box-title"><a href="#">Medical Quality</a></h3>{/* /.about-three__box-title */}
-                      <p className="about-three__box-text">Lorem ipsum dolor sit amet, conse the ctetur adipisc elitedo eiusmod.</p>{/* /.about-three__box-text */}
+                      <p className="about-three__box-text"> Ensuring excellence in every step of patient care.</p>{/* /.about-three__box-text */}
                     </div>{/* /.about-three__box */}
                   </div>{/* /.col-lg-6 */}
                   <div className="col-lg-6 col-md-6 col-sm-12">
@@ -125,7 +126,8 @@ export default function Home() {
                         <i className="clainc-icon-operating-room" />
                       </div>{/* /.about-three__box-icon */}
                       <h3 className="about-three__box-title"><a href="#">Modern Labs</a></h3>{/* /.about-three__box-title */}
-                      <p className="about-three__box-text">Lorem ipsum dolor sit amet, conse the ctetur adipisc elitedo eiusmod.</p>{/* /.about-three__box-text */}
+                      <p className="about-three__box-text">Empowering healthcare with state-of-the-art diagnostics.
+                      </p>{/* /.about-three__box-text */}
                     </div>{/* /.about-three__box */}
                   </div>{/* /.col-lg-6 */}
                   <div className="col-lg-6 col-md-6 col-sm-12">
@@ -134,7 +136,7 @@ export default function Home() {
                         <i className="clainc-icon-microscope" />
                       </div>{/* /.about-three__box-icon */}
                       <h3 className="about-three__box-title"><a href="#">Cutting Edge Technology</a></h3>{/* /.about-three__box-title */}
-                      <p className="about-three__box-text">Lorem ipsum dolor sit amet, conse the ctetur adipisc elitedo eiusmod.</p>{/* /.about-three__box-text */}
+                      <p className="about-three__box-text">Advancing precision and innovation in medical care.</p>{/* /.about-three__box-text */}
                     </div>{/* /.about-three__box */}
                   </div>{/* /.col-lg-6 */}
                   <div className="col-lg-6 col-md-6 col-sm-12">
@@ -143,7 +145,7 @@ export default function Home() {
                         <i className="clainc-icon-doctor" />
                       </div>{/* /.about-three__box-icon */}
                       <h3 className="about-three__box-title"><a href="#">24/7 Dedicated Experts</a></h3>{/* /.about-three__box-title */}
-                      <p className="about-three__box-text">Lorem ipsum dolor sit amet, conse the ctetur adipisc elitedo eiusmod.</p>{/* /.about-three__box-text */}
+                      <p className="about-three__box-text">Round-the-clock support from healthcare specialists.</p>{/* /.about-three__box-text */}
                     </div>{/* /.about-three__box */}
                   </div>{/* /.col-lg-6 */}
                 </div>{/* /.row */}
@@ -158,7 +160,7 @@ export default function Home() {
             <div className="col-lg-8">
               <div className="block-title text-left">
                 <h2 className="block-title__title">What Service We Provide</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing eseiusmod <br /> there tempor incididunt ut labore et dolore magna aliqua. </p>{/* /.block-title__text */}
+                <p className="block-title__text"> Our services Cover a wide range of services. Which Mainy Include ?</p>{/* /.block-title__text */}
               </div>{/* /.block-title */}
               <div className="service-four__content">
                 <div className="row service-four__row">
@@ -232,24 +234,6 @@ export default function Home() {
                     <i className="appointment-two__form-field-icon material-icons">date_range</i>
                   </div>{/* /.appointment-two__form-field */}
                   <div className="appointment-two__form-field">
-                    <select className="selectpicker">
-                      <option>Choose Department</option>
-                      <option>Choose Department</option>
-                      <option>Choose Department</option>
-                      <option>Choose Department</option>
-                      <option>Choose Department</option>
-                    </select>
-                  </div>{/* /.appointment-two__form-field */}
-                  <div className="appointment-two__form-field">
-                    <select className="selectpicker">
-                      <option>Select Doctor</option>
-                      <option>Select Doctor</option>
-                      <option>Select Doctor</option>
-                      <option>Select Doctor</option>
-                      <option>Select Doctor</option>
-                    </select>
-                  </div>{/* /.appointment-two__form-field */}
-                  <div className="appointment-two__form-field">
                     <button type="submit" className="appointment-two__form-btn">Request Appointment</button>
                   </div>{/* /.appointment-two__form-field */}
                 </div>{/* /.appointment-two__form-bottom */}
@@ -262,7 +246,6 @@ export default function Home() {
         <div className="container">
           <div className="block-title text-center">
             <h2 className="block-title__title">Why We Are Best in The Town</h2>{/* /.block-title__title */}
-            <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
           </div>{/* /.block-title */}
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
@@ -272,7 +255,7 @@ export default function Home() {
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
                   <h3 className="service-three__title"><a href="#">Experience Doctors</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                  <p className="service-three__text">We are Equipped with Highly Qualified Available Doctors</p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
               </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -283,18 +266,7 @@ export default function Home() {
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
                   <h3 className="service-three__title"><a href="#">Emergency Treatments</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                </div>{/* /.service-three__content */}
-              </div>{/* /.service-three__single */}
-            </div>{/* /.col-lg-4 */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service-three__single">
-                <div className="service-three__icon">
-                  <i className="clainc-icon-save-the-earth" />
-                </div>{/* /.service-three__icon */}
-                <div className="service-three__content">
-                  <h3 className="service-three__title"><a href="#">Better Enverionment</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                  <p className="service-three__text">We Offer Fast Response To Emergency Services</p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
               </div>{/* /.service-three__single */}
             </div>{/* /.col-lg-4 */}
@@ -305,32 +277,10 @@ export default function Home() {
                 </div>{/* /.service-three__icon */}
                 <div className="service-three__content">
                   <h3 className="service-three__title"><a href="#">Quality and Saftey</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
+                  <p className="service-three__text">Your safety is Our Major Concern, Therefore our systems are end-to-end encrypted</p>{/* /.service-three__text */}
                 </div>{/* /.service-three__content */}
               </div>{/* /.service-three__single */}
-            </div>{/* /.col-lg-4 */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service-three__single">
-                <div className="service-three__icon">
-                  <i className="clainc-icon-medicine" />
-                </div>{/* /.service-three__icon */}
-                <div className="service-three__content">
-                  <h3 className="service-three__title"><a href="#">Special Medicine</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                </div>{/* /.service-three__content */}
-              </div>{/* /.service-three__single */}
-            </div>{/* /.col-lg-4 */}
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="service-three__single">
-                <div className="service-three__icon">
-                  <i className="clainc-icon-noun_heart-beat_1684580" />
-                </div>{/* /.service-three__icon */}
-                <div className="service-three__content">
-                  <h3 className="service-three__title"><a href="#">Advanced Surgeries</a></h3>
-                  <p className="service-three__text">Lorem ipsum dolor sit amet consept ctetur adipiscing elsed do eiusmod labore dolore magna aliqua. </p>{/* /.service-three__text */}
-                </div>{/* /.service-three__content */}
-              </div>{/* /.service-three__single */}
-            </div>{/* /.col-lg-4 */}                    
+            </div>{/* /.col-lg-4 */}                   
           </div>{/* /.row */}
         </div>{/* /.container */}
       </section>{/* /.service-three */}
@@ -341,232 +291,24 @@ export default function Home() {
               <div className="block-title">
                 <h2 className="block-title__title">Our Missions and Visions</h2>{/* /.block-title__title */}
                 <p className="block-title__text">UzimaNexus empowers healthcare providers and patients by offering a secure, data-sharing
-platform tailored for Africa’s unique needs. We strive to drive early diagnoses, efficient
-treatment, and trust through a centralized system that simplifies access to health records,
-supports referrals, and integrates across diverse healthcare settings.</p>{/* /.block-title__text */}
+                  platform tailored for Africa’s unique needs. We strive to drive early diagnoses, efficient
+                  treatment, and trust through a centralized system that simplifies access to health records,
+                  supports referrals, and integrates across diverse healthcare settings.
+              </p>{/* /.block-title__text */}
               </div>{/* /.block-title */}
-              <div className="team-three__list team-three__pager">
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item active" data-slide-index={0}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Yolanda Moises</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item" data-slide-index={1}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Terresa Bradey</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item" data-slide-index={2}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-3.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Shane Guemer</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item" data-slide-index={3}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-4.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Shantel Amaya</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item" data-slide-index={4}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-5.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Omar Karowski</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" className="pager-item" data-slide-index={5}>
-                      <div className="team-three__list-item">
-                        <div className="team-three__list-item-image">
-                          <div className="inner-block"><img src="/images/team/team-3-6.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                        </div>{/* /.team-three__list-item-image */}
-                        <div className="team-three__list-item-content">
-                          <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                          <h3 className="team-three__name">Dortha Marinla</h3>{/* /.team-three__name */}
-                          <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                        </div>{/* /.team-three__list-item-content */}
-                      </div>{/* /.team-three__list-item */}
-                    </a>
-                  </div>{/* /.col-lg-6 */}
-                </div>{/* /.row */}
-              </div>{/* /.team-three__list */}
             </div>{/* /.col-lg-7 */}
-            <div className="col-xl-5">
-              <ul className="slider team-three__slider">
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-1.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Yolanda Moises</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-2.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Terresa Bradey</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-3.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Shanae Guemmer</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-4.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Shantel Amaya</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-5.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Omar Kacprowski</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-                <li className="slide-item">
-                  <div className="team-three__description">
-                    <div className="team-three__description-top">
-                      <div className="team-three__description-image">
-                        <div className="inner-block"><img src="/images/team/team-3-6.jpg" alt="Awesome Image" /></div>{/* /.inner-block */}
-                      </div>{/* /.team-three__description-image */}
-                      <div className="team-three__description-content">
-                        <p className="team-three__title">Professior</p>{/* /.team-three__title */}
-                        <h3 className="team-three__name">Dortha Marinella</h3>{/* /.team-three__name */}
-                        <p className="team-three__designation">Dental Care</p>{/* /.team-three__designation */}
-                      </div>{/* /.team-three__description-top-content */}
-                    </div>{/* /.team-three__description-top */}
-                    <div className="team-three__content">
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel eiusmor facilisis. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                      <p className="team-three__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing aliqua. </p>
-                      <a href="#" className="team-three__btn">Learn More <i className="fa fa-long-arrow-right" /></a>
-                    </div>{/* /.team-three__content */}
-                  </div>{/* /.team-three__full-description */}
-                </li>
-              </ul>
-            </div>{/* /.col-lg-5 */}
           </div>{/* /.row */}
+          <div>
+            <Collaborators />
+          </div>
         </div>{/* /.container */}
       </section>{/* /.team-three */}
       <section className="fun-fact-two">
-        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(/images/background/fun-fact-bg-1-1.jpg)'}} />{/* /.fun-fact-two__background-image */}
+        <div className="fun-fact-two__background-image" style={{backgroundImage: 'url(/images/background/Background2.jpg)'}} />{/* /.fun-fact-two__background-image */}
         <div className="container">
           <div className="block-title text-center">
-            <h2 className="block-title__title block-title__light-color">Our Achievements</h2>{/* /.block-title__title */}
-            <p className="block-title__text block-title__light-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
+            <h2 className="block-title__title block-title__light-color">Our Target Achievements</h2>{/* /.block-title__title */}
+            <p className="block-title__text block-title__light-color">With Technology Enhancement and machine Learning with AI UzimaNexus is looking forward to Become to:</p>{/* /.block-title__text */}
           </div>{/* /.block-title */}
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12">

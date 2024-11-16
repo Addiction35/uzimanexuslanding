@@ -7,13 +7,13 @@ const Team = () => {
             <div className="container">
             <div className="block-title text-center">
                 <h2 className="block-title__title">Meet With Our Team</h2>{/* /.block-title__title */}
-                <p className="block-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttom <br /> labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>{/* /.block-title__text */}
+                <p className="block-title__text">UzimaNexus Would not have  been  possible if it wasn't for Our Amazing <br />Team who put up the effort to make sure the dream is bright.</p>{/* /.block-title__text */}
             </div>{/* /.block-title */}
             <div className="row low-gutters">
                 <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="team-one__single">
                     <div className="team-one__image">
-                    <img src="/images/team/team-1-1.jpg" alt="Awesome Image" />
+                    <img src="/images/team/Woman.jpg" alt="Awesome Image" style={{height: 200}} />
                     </div>{/* /.team-one__image */}
                     <div className="team-one__content">
                     <h3 className="team-one__title"><a href="#">Dr. Amina</a></h3>{/* /.team-one__title */}
@@ -28,7 +28,7 @@ const Team = () => {
                 <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="team-one__single">
                     <div className="team-one__image">
-                    <img src="/images/team/team-1-2.jpg" alt="Awesome Image" />
+                    <img src="/images/team/Alvin.jpg" alt="Awesome Image" style={{height: 200}}/>
                     </div>{/* /.team-one__image */}
                     <div className="team-one__content">
                     <h3 className="team-one__title"><a href="#">Alvin Maase</a></h3>{/* /.team-one__title */}
@@ -44,7 +44,7 @@ const Team = () => {
                 <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="team-one__single">
                     <div className="team-one__image">
-                    <img src="/images/team/team-1-4.jpg" alt="Awesome Image" />
+                    <img src="/images/team/Man2.jpg" alt="Awesome Image" style={{height: 200}}/>
                     </div>{/* /.team-one__image */}
                     <div className="team-one__content">
                     <h3 className="team-one__title"><a href="#">Prudence</a></h3>{/* /.team-one__title */}
